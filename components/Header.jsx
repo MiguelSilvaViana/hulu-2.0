@@ -3,30 +3,30 @@ import Image from 'next/image';
 import HeaderItem from './HeaderItem';
 
 import {
-  HiOutlineCheckBadge,
-  HiOutlineRectangleStack,
+  HiOutlineBadgeCheck,
+  HiOutlineCollection,
   HiOutlineHome,
-  HiOutlineBolt,
-  HiOutlineMagnifyingGlass,
+  HiOutlineLightningBolt,
+  HiSearch,
   HiOutlineUser,
-} from 'react-icons/hi2';
+} from 'react-icons/hi';
 
 function Header() {
   return (
-    <header className="">
-      <div>
+    <header className="flex flex-col items-center justify-between m-5 sm:flex-row">
+      <div className="flex flex-grow max-w-2xl justify-evenly">
         <HeaderItem title="HOME" Icon={HiOutlineHome} />
-        <HeaderItem title="TRENDING" Icon={HiOutlineBolt} />
-        <HeaderItem title="VERIFIED" Icon={HiOutlineCheckBadge} />
-        <HeaderItem title="COLLECTIONS" Icon={HiOutlineRectangleStack} />
-        <HeaderItem title="SEARCH" Icon={HiOutlineMagnifyingGlass} />
+        <HeaderItem title="TRENDING" Icon={HiOutlineLightningBolt} />
+        <HeaderItem title="VERIFIED" Icon={HiOutlineBadgeCheck} />
+        <HeaderItem title="COLLECTIONS" Icon={HiOutlineCollection} />
+        <HeaderItem title="SEARCH" Icon={HiSearch} />
         <HeaderItem title="ACCOUNT" Icon={HiOutlineUser} />
       </div>
       <Image
-        alt="HULU"
         className="object-contain"
-        src="https://logospng.org/download/hulu/hulu-2048.png"
-        width={180}
+        alt="HULU"
+        src="https://links.papareact.com/ua6"
+        width={200}
         height={100}
       />
     </header>
