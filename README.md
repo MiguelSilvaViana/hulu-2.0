@@ -10,8 +10,6 @@
 ![Project Image](https://user-images.githubusercontent.com/96927347/210912114-7a896fea-765e-42a3-8ab0-649d2caa370e.png)
 
 
-> This is a ReadMe template to help save you time and effort.
-
 ---
 
 ### Table of Contents
@@ -19,9 +17,7 @@ You're sections headers will be used to reference location of destination.
 
 - [Description](#description)
 - [How To Use](#how-to-use)
-- [References](#references)
 - [License](#license)
-- [Author Info](#author-info)
 
 ---
 
